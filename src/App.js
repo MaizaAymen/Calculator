@@ -6,7 +6,7 @@ function App() {
   const [input, setInput] = useState("0");
   const [expression, setExpression] = useState("");
 
-  
+
 
   const handleClick = (value) => {
     if (value === "AC") {
@@ -28,6 +28,7 @@ function App() {
       }
     } else if (["+", "*", "/"].includes(value)) {
       const sanitizedExpression = expression.replace(/[-+*/]+$/, "");
+      
     
       const newExpression = sanitizedExpression + value; 
       setExpression(newExpression); 
