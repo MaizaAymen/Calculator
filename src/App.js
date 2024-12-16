@@ -49,9 +49,11 @@ function App() {
       <div className='calculator-container'>
         <div id='display'>{input}</div>
         <div>
+
           <button id='clear' onClick={() => handleClick("AC")}>AC</button>
           <button id='divide' onClick={() => handleClick("/")}>/</button>
           <button id='multiply' onClick={() => handleClick("*")}>*</button>
+          
         </div>
         <div>
           <button id='seven' onClick={() => handleClick("7")}>7</button>
