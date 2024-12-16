@@ -17,4 +17,4 @@ A simple and elegant calculator application built with **React**. This calculato
 
 ## Demo
 
-You can see the app in action here: [Live Demo](https://calculator-psi-three-96.vercel.app/)
+You can see the app in action here: [Live Demo](https://calculator-one-fawn-16.vercel.app/)
