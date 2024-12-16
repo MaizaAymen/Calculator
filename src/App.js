@@ -51,6 +51,7 @@ function App() {
         <div>
 
           <button id='clear' onClick={() => handleClick("AC")}>AC</button>
+
           <button id='divide' onClick={() => handleClick("/")}>/</button>
           <button id='multiply' onClick={() => handleClick("*")}>*</button>
           
